@@ -1,0 +1,240 @@
+@media(orientation: portrait) {
+    .content{
+        background-image: url("/images/14/BG.png");
+        background-size:200%;
+        opacity: 1;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+    }
+    .caution{
+        position: absolute;
+        border-radius: 10px;
+        width: 90%;
+        height: max-content;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem ;
+    }
+}
+@media(orientation: landscape) {
+    .content{
+        background-image: url("/images/14/BG.png");
+        background-size: 150%;
+        opacity: 1;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+    }
+}
+
+@media(min-width: 1500px){
+    .caution{
+        position: absolute;
+        border-radius: 10px;
+        left: 35%;
+        width: 595px;
+        height: max-content;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1rem;
+    }
+}
+
+@media(max-width: 1500px) and (orientation: landscape){
+    .caution{
+        position: absolute;
+        border-radius: 10px;
+        left: 23%;
+        width: 595px;
+        height: fit-content;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1rem;
+    }
+}
+
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: White;
+}
+.box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.h3{
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #523922;
+}
+
+.h1{
+    font-family: TAN - PEARL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 69px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #523922;
+}
+
+.CenterBox{
+    position: relative;
+    width: 470px;
+    height: 548px;
+    background-image: url("/images/14/Login.png");
+    background-repeat:no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0rem;
+}
+
+.symbol{
+    position: relative;
+    top: -10%;
+}
+
+.note{
+    width: 85%;
+    margin-bottom: 1rem;
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    color: #4D2A19;
+}
+
+.sign_btn1{
+    position: relative;
+    top:10%;
+    cursor: pointer;
+    width: 350px;
+    height: 40px;
+    border: none;
+    border-radius: 40px;
+    background: #073E0D;
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    transition: all 0.5s;
+}
+
+.sign_btn2{
+    position: relative;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    width: 350px;
+    height: 40px;
+    border: none;
+    border-radius: 40px;
+    background: #A56C50;
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    transition: all 0.5s;
+}
+
+.learn{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.blur{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    background-color: #B99173;
+}
+
+@media only screen and (max-width: 768px)  {
+    .inputBox input {
+        width: 250px;
+    }
+    .CenterBox {
+        width: 90%;
+    }
+    .sign_btn1 {
+        top: 4% !important;
+    }
+    .sign_btn2 {
+        margin-top: 1.5rem !important;
+    }
+}
+
+.caution .text{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #523922;
+    margin-bottom: 24px;
+}
+
+.exit_btn{
+    cursor: pointer;
+}

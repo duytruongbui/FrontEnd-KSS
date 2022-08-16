@@ -1,0 +1,31 @@
+.contain {
+  background-color: #b99173;
+}
+
+.content {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 110vh;
+}
+
+.textColor {
+  color: #b5a595;
+}
+
+.ReactAudioPlayer {
+  width: 100%;
+}
+
+.ReactAudioPlayer::-webkit-media-controls-panel {
+  background-color: rgba(red, green, blue, 0.5);
+}
+
+.ReactAudioPlayer::-webkit-media-controls-play-button {
+  background-color: #b5a595;
+  border-radius: 50%;
+}
+
+.ReactAudioPlayer::-webkit-media-controls-play-button:hover {
+  background-color: #a56c50;
+}

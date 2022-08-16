@@ -1,0 +1,532 @@
+.box1 .container2 .text2 {
+  font-family: Tenor Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16.8px;
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+  letter-spacing: -0.3px;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+.box1 .container1 .text1 {
+  font-family: Tenor Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 159.5%;
+  letter-spacing: -0.3px;
+  color: #ffffff;
+  
+}
+
+.box1 .container1 .text1 *{
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.HrWhite{
+  color: #F8EEE4;
+  margin-top:45px;
+}
+
+@media (orientation: portrait) {
+
+  .box2 .container4 .content4 .card{
+    position: relative;
+    cursor: pointer;
+    background: -webkit-linear-gradient(top, #523922 60%, #523922 60%);
+    border-radius: 10px 10px 10px 40px !important;
+
+  }
+
+  .box2 .container4 .content4 .card .RestaurantName{
+    position: absolute;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 154%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #F8EEE4;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: calc(50% - 30px);
+    left: calc(50% + 5px);
+    transform: translate(-50%);
+  }
+
+  .box2 .container4 .content4 .card .RestaurantImg{
+    background: #000;
+    opacity: 0.95;
+    /* background: #F8EEE4; */
+    border-radius: 10px 10px 10px 40px;
+    
+    height: 160px;
+    width: 100%;
+    /* background: #d1c7bd; */
+  }
+
+
+
+  .HrWhite{
+    margin-top:00px;
+  }
+
+  .box2 .container3 .content3 .block .text {
+    font-size: 16px;
+    line-height: 18.72px;
+  }
+
+  .contain {
+    margin-top: 40px;
+  }
+  .box1 .container1 .text1 {
+    margin-top: 12px;
+  }
+  .box1 .container1 .text1 {
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px !important;
+    line-height: 16px !important;
+    letter-spacing: -0.3px;
+    color: #ffffff;
+  }
+  .box1 .container1 {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0 0 0;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+  }
+  .box1 .container2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 0 2rem 0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .box1 .container1 .img1 {
+    display: block;
+    width: 100%;
+  }
+
+  .box1 .container1 .img1 img{
+    border-radius: 10px 10px 10px 13px;
+  }
+
+  .box1 .container2 .content2 {
+    margin-top: 2rem;
+  }
+  .box1 .container1 .content1 .header1 {
+    margin-bottom: 190px;
+  }
+  .box1 .container2 .book {
+    background-color: white;
+  }
+  .box1 .container2 .img2 {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .box1 .container2 .img2 img{
+    border-radius: 10px 10px 10px 13px;
+  }
+
+  .box1 .container2 .book {
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    line-height: 19px;
+    background: #073e0d;
+  }
+
+  .box1 .container2 .text2 {
+    font-size: 12px !important;
+    margin-bottom: 20px;
+  }
+
+  .box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 70%; */
+    width: 100%;
+    margin-bottom: 20px;
+    /* margin-left: 10%; */
+    
+  }
+  .box2 .container3 {
+    width: 100%;
+  }
+  /* .box2 .container4 .content4 { */
+    /* display: none; */
+  /* } */
+  .box2 .container4 .content5 {
+    display: flex;
+    flex-direction: column;
+  }
+  .box2 .container4 .content5 .card {
+    position: relative;
+    width: 100%;
+    height: 120px;
+    cursor: pointer;
+    margin: 0.5rem;
+  }
+
+  .box2 .container3 .content3 .block {
+    padding: 1rem;
+    background: #f8eee4;
+    border-radius: 10px 10px 10px 40px;
+    margin: 0.5rem 0.5rem 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 50% !important;
+    /* width: 160px !important; */
+    height: 230px !important;
+  }
+  .box1 .container2 .header2 {
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.3px;
+    color: #ffffff;
+  }
+}
+
+@media (orientation: landscape) {
+  .contain {
+    margin-top: -35px;
+  }
+  .box1 .container1 .img1 {
+    position: relative;
+    width: 571px;
+    height: 280px;
+    cursor: pointer;
+  }
+
+  .box1 .container1 .img1 img{
+    border-radius: 10px 10px 10px 13px;
+  }
+
+  .box1 .container2 .img2 {
+    position: relative;
+    width: 570px;
+    height: 280px;
+    cursor: pointer;
+  }
+  .box1 .container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .box1 .container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 36px 0px 2rem 0px;
+  }
+
+  .box1 .container1 .content1 .header1 {
+    margin-bottom: 1rem;
+  }
+  .box1 .container2 .book {
+    width: 328px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 19px;
+    background: #073e0d;
+  }
+  .box2 {
+    display: flex;
+    flex-direction: row;
+    /* width: 65%; */
+    width: 100%;
+    margin-bottom: 100px;
+  }
+
+  .box2 .container3 {
+    width: 50%;
+  }
+  .box2 .container4 .content4 {
+    display: flex;
+    flex-direction: row;
+  }
+  .box2 .container4 .content5 {
+    display: none;
+  }
+  .box2 .container4 .content5 .card {
+    margin-bottom: 2rem;
+  }
+  .box2 .container4 .content4 .card {
+    position: relative;
+    margin: 0.5rem;
+    width: 294px;
+    height: 238px;
+    cursor: pointer;
+  }
+
+  .box2 .container4 .content4 .restaurant-card{
+    position: relative;
+  }
+
+  .box2 .container4 .content4 .card .RestaurantImg{
+    height: 238px;
+    width: 295px;
+    left: 415px;
+    top: 846px;
+    opacity: 0.95;
+    /* background: #F8EEE4; */
+    background: #000;
+    border-radius: 10px 10px 10px 40px;
+    /* background: linear-gradient(to top, #523922, #523922) no-repeat top center; */
+  }
+
+  .box2 .container4 .content4 .card .RestaurantName{
+    position: absolute;
+    top:45%;
+    left: calc(16px + 22%);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 154%;
+    /* or 31px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    color: #F8EEE4;
+  }
+
+  .box1 .container1 .text1 {
+    margin-top: 12px;
+  }
+  .box1 .container1 .content1 {
+    width: 571px;
+  }
+  .box1 .container2 .content2 {
+    margin-top: 58px;
+    width: 571px;
+    margin-right: 5%;
+  }
+  .box1 .container2 .header2 {
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.3px;
+    color: #f8eee4;
+    margin-bottom: 1rem;
+  }
+}
+
+.contain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* overflow-x: hidden; */
+}
+
+.box1 {
+  position: relative;
+  display: flex;
+  /* border-bottom: 2px solid white; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.box1 .container1 .content1 .header1 {
+  font-family: Tenor Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  letter-spacing: -0.3px;
+  color: #f8eee4;
+  width: 100%;
+}
+
+.box1 .container1 .ul {
+  font-family: Tenor Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 159.5%;
+  letter-spacing: -0.3px;
+  color: #ffffff;
+}
+
+
+
+.box1 .container1 .ul {
+  position: relative;
+  margin-left: 15px;
+}
+
+.box1 .container2 .book {
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+  font-family: Tenor Sans;
+  font-style: normal;
+  font-weight: normal;
+
+  color: #ffffff;
+  transition: all 0.5s;
+}
+
+.box1 .container2 .book:hover {
+  background: white;
+  color: #073e0d;
+}
+
+.box2 .container3 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5%;
+}
+
+.box2 .container3 .content3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.box2 .container3 .header3 {
+  margin: 2rem 0 0.5rem 0;
+  font-family: Tenor Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 115.5%;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.3px;
+  color: #f8eee4;
+}
+
+.box2 .container4 .header4 {
+  margin: 2rem 0 0.5rem 0;
+  font-family: Tenor Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 115.5%;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.3px;
+  color: #f8eee4;
+}
+
+.box2 .container3 .content3 .block {
+  padding: 1rem;
+  background: #f8eee4;
+  border-radius: 10px 10px 10px 40px;
+  margin: 0.5rem 0.5rem 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  /* width: 50%; */
+  width: 294px;
+  height: 238px;
+  /* height: 270px; */
+}
+
+.box2 .container3 .content3 .block .heading {
+  font-family: Tenor Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* display: flex; */
+  align-items: center;
+  letter-spacing: -0.3px;
+  color: #b99173;
+  /* border-bottom: 2px solid #b99173; */
+  width: fit-content;
+  margin-bottom: 1rem;
+
+  /* Add New Style*/
+  display: inline-block;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.box2 .container3 .content3 .block .heading:before{
+  content: "";
+  position: absolute;
+  width: calc(120px + 45%);
+  height: 1px;
+  bottom: 0;
+  
+  border-bottom: 1px solid #b99173;
+}
+
+.box2 .container3 .content3 .block .text {
+  font-family: Tenor Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 115.5%;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.3px;
+  margin-bottom: 0.5rem;
+  color: #523922;
+  width: fit-content;
+}
+
+.box2 .container3 .content3 .block .text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.box2 .container3 .content3 .block .note {
+  font-family: Tenor Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 115.5%;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.3px;
+  color: #b99173;
+}
+
+.box2 .container3 .content3 .block .price {
+  position: relative;
+  font-family: Tenor Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 115.5%;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #b99173;
+}

@@ -1,0 +1,159 @@
+.bdmain {
+  /* background-image: url('/images/Landing_IMG.png'); */
+  width: 100vw;
+  height: 100vh;
+}
+
+.box {
+  position: absolute;
+  width: 30%;
+  height: 100vh;
+  left: 0px;
+  top: 0px;
+
+  background: #a56c50;
+  opacity: 0.5;
+}
+
+.navbar {
+  display: flex;
+  padding: 12px;
+  flex-direction: row;
+  position: absolute;
+  left: 10vw;
+  bottom: 35vh;
+  z-index: 4;
+}
+
+.activenav {
+  margin: 3px;
+  width: 2rem;
+  height: 0.4rem;
+
+  background: #073e0d;
+  border-radius: 0.2rem;
+  transition: width 1s;
+  transition: background 1s;
+}
+
+.next {
+  margin: 3px;
+  width: 1rem;
+  height: 0.4rem;
+
+  background: #f8eee4;
+  border-radius: 0.2rem;
+  transition: width 1s;
+  transition: background 1s;
+}
+
+.bottomtext {
+  position: absolute;
+  bottom: 10rem;
+  width: 55%;
+  font-family: Tenor Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 60px;
+  /* or 120% */
+
+  display: flex;
+  align-items: center;
+
+  color: #f8eee4;
+  margin-left: 5rem;
+}
+
+.cover {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  -webkit-transition: opacity 1s ease-in;
+  -moz-transition: opacity 1s ease-in;
+  -ms-transition: opacity 1s ease-in;
+  -o-transition: opacity 1s ease-in;
+  transition: opacity 1s ease-in;
+}
+
+.bg {
+  font-size: 21px;
+  margin-top: 25px;
+  text-align: center;
+  -webkit-transition: opacity 1.5s ease-in;
+  -moz-transition: opacity 1.5s ease-in;
+  -ms-transition: opacity 1.5s ease-in;
+  -o-transition: opacity 1.5s ease-in;
+  transition: opacity 1.5s ease-in;
+}
+
+.bgEaseOut {
+  font-size: 21px;
+  margin-top: 25px;
+  text-align: center;
+  -webkit-transition: opacity 1s ease-out;
+  -moz-transition: opacity 1s ease-out;
+  -ms-transition: opacity 1s ease-out;
+  -o-transition: opacity 1s ease-out;
+  transition: opacity 1s ease-out;
+}
+
+.bgover {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: #4d2a19;
+  background-blend-mode: multiply;
+  z-index: 1;
+  opacity: 0.2;
+}
+
+.plaincover {
+  position: absolute;
+  z-index: 2;
+  height: 100vh;
+  background-color: #a56c50;
+  opacity: 0.5;
+  transition: width 2s;
+}
+
+.textover {
+  position: absolute;
+  z-index: 3;
+  bottom: 40vh;
+  left: 10vw;
+  font-size: 8vh;
+  line-height: 8.5vh;
+
+  -webkit-transition: opacity 1s ease-in;
+  -moz-transition: opacity 1s ease-in;
+  -ms-transition: opacity 1s ease-in;
+  -o-transition: opacity 1s ease-in;
+  transition: opacity 1s ease-in;
+}
+
+@media only screen and (max-width: 1200px) {
+  .textover {
+    width: 70vw !important;
+    font-size: 8vh;
+    line-height: 6.5vh;
+    bottom: 20vh;
+  }
+  .navbar {
+    left: 10vw;
+    bottom: 10vh;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .textover {
+    width: 70vw !important;
+    font-size: 6vh;
+    line-height: 6.5vh;
+    bottom: 10vh;
+  }
+  .navbar {
+    left: 0.5vw;
+    bottom: 0.5vh;
+  }
+}

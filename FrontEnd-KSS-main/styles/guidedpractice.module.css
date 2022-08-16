@@ -1,0 +1,81 @@
+.contain {
+  background-color: #b99173;
+}
+
+.content {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.pt1 {
+  padding-top: 3px !important;
+}
+
+.container {
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.welcomeText {
+  color: #fff;
+  font-size: 32px;
+}
+
+.card {
+  width: 325px;
+  height: 220px;
+  border-radius: 10px 10px 10px 40px;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  /* -webkit-transition: transform 0.15s ease-in-out; */
+}
+
+.headCard {
+  width: 60%;
+  border-bottom: 1px solid #fff;
+}
+
+.headCard p {
+  color: #fff;
+  font-size: 14px;
+}
+
+.opacityCard {
+  background-color: rgba(82, 57, 34, 0.5);
+  height: 100%;
+  width: 100%;
+}
+
+.bodyCard p {
+  color: #fff;
+  font-size: 28px;
+}
+
+.footCard p {
+  color: #fff;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+  }
+  .welcomeTextDetail {
+    color: #fff;
+    font-size: 16px;
+  }
+  .card {
+    /* width: 280px; */
+    width: 160px;
+    height: 205px;
+  }
+  .bodyCard p {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,193 @@
+.container {
+  background-color: #b99173;
+  margin-top: -84px;
+  height: max-content;
+  border-radius: 100px 100px 0px 0px;
+  z-index: 2;
+  position: relative;
+  padding: 0;
+}
+
+.coverimg {
+  position: relative;
+  width: 100%;
+  height: 604px;
+  padding: 0;
+  margin: 0;
+}
+
+/* .coverimg::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px 10px 10px 40px;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+} */
+
+.coverimg .buttonView {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coverimg .buttonView .buttonPlay {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #f8eee4;
+  position: absolute;
+  top: 50px;
+}
+
+.coverimg .buttonView .buttonPlay i {
+  font-size: 3rem;
+  padding-left: 5px;
+  color: #a56c50;
+}
+
+.coverimg .buttonView .buttonBack i {
+  font-size: 3rem;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 5px;
+}
+
+.coverimgpd {
+  position: relative;
+  width: 100%;
+  height: max-content;
+  padding: 0;
+  margin: 0;
+}
+
+.coverimgfull {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.coverimgfull .buttonBack {
+  position: absolute;
+  top: 50px;
+  left: 5px;
+  width: 70px;
+  height: 70px;
+  z-index: 1000;
+}
+
+.coverimgfull .buttonBack i {
+  font-size: 3rem;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 5px;
+}
+
+.contentcover {
+  position: relative;
+  z-index: 100;
+  margin-top: -38px;
+}
+
+.cardtitle {
+  line-height: 154%;
+  letter-spacing: -0.3px;
+  z-index: 100;
+  color: #f8eee4;
+  position: relative;
+}
+
+.imgcover {
+  background: #c4c4c4;
+  border-radius: 10px 10px 10px 40px;
+}
+@media only screen and (max-width: 768px) {
+  .content5 {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .content5 .card {
+    position: relative;
+    width: 95%;
+    height: 120px;
+    cursor: pointer;
+    margin: 0.5rem;
+  }
+  .container {
+    background-color: #b99173;
+    margin-top: -18px;
+    height: max-content;
+    border-radius: 20px 20px 0px 0px;
+    z-index: 2;
+    position: relative;
+    padding: 0;
+  }
+  .coverimg {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .contentcover {
+    position: relative;
+    z-index: 100;
+    margin-top: 0px;
+  }
+}
+
+.content5 {
+  display: flex;
+  flex-direction: row;
+}
+.card {
+  position: relative;
+  margin-bottom: 2rem;
+  width: 100%;
+  height: 180px;
+}
+
+.inputBox {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+}
+.Icon {
+  width: 40px;
+  border-bottom: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  position: relative;
+}
+.inputBox input {
+  height: 41px;
+  width: 80%;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  margin-bottom: 1rem;
+
+  font-family: Tenor Sans;
+  font-size: 14px;
+  padding-left: 1rem;
+  color: #ffffff;
+}
+
+.inputBox input::placeholder {
+  color: #ffffff;
+}

@@ -1,0 +1,265 @@
+@media only screen and (max-width: 768px){
+    .contain{
+        margin-left: -10%;
+    }
+    .box1 .container1{
+        padding: 0;
+    }
+    .box1 .container1{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 1rem 2rem 1rem;
+        justify-content: center;
+        width: 100%;
+    }
+    .box1 .container2{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 1rem 2rem 1rem;
+        justify-content: center;
+        width: 100%;
+    }
+    .box1 .container1 .img1{
+        position: relative;
+        /* left: 3%; */
+        /* top: 10%; */
+        margin-top: 24px;
+        cursor: pointer;
+        width: 100%;
+        height: 180px;
+    }
+    .box1 .container1 .content1 .header1{
+        /* margin-bottom: 170px; */
+    }
+    .box1 .container2 .content2 .header2{
+        margin-bottom: 190px;
+    }
+    .box1 .container2 .book{
+        background-color: white;
+    }
+    .box1 .container2 .img2{
+        position: absolute;
+        left: 3%;
+        top: 60%;
+        width: 330px;
+        height: 140px;
+        cursor: pointer;
+    }
+    .box1 .container2 .book{
+        width: 100%;
+        height: 45px;
+        background: #073E0D;
+    }
+    .box2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 70%;
+        margin-left: 10%;
+    }
+    .box2 .container3{
+        width: 100%;
+    }
+    .box2 .container4 .content4{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .box2 .container4 .content4 .card{
+        margin-bottom: 1rem;
+        width: 330px;
+        height: 100px;
+        position: relative;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .contain{
+        padding: 3rem 7rem 0 5rem;
+    }
+    .box1 .container1 .img1{
+        width: 570px;
+        height: 280px;
+        margin-right: 5%;
+        cursor: pointer;
+        position: relative;
+    }
+    .box1 .container2 .img2{
+        width: 570px;
+        height: 280px;
+        margin-left: 5%;
+        cursor: pointer;
+        position: relative;
+    }
+    .box1 .container1{
+        display: flex;
+        flex-direction: row;
+        margin: 1rem 1rem 2rem 1rem;
+    }
+    .box1 .container2{
+        display: flex;
+        flex-direction: row;
+        margin: 1rem 1rem 2rem 1rem;
+    }
+    
+    .box1 .container1 .content1 .header1{
+        margin-bottom: 1rem;
+    }
+    .box1 .container2 .book{
+        width: 328px;
+        height: 40px;
+        background: #073E0D;
+    }
+    .box2{
+        display: flex;
+        flex-direction: row;
+        width: 65%;
+    }
+    .box2 .container4{
+        width: 100%;
+    }
+    .box2 .container4 .content4{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .box2 .container4 .content4 .card{
+        margin: 0 1rem 1rem 0;
+        width: 607px;
+        height: 167px;
+        position: relative;
+    }
+}
+
+
+.contain {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #cfa88a; */
+    overflow-x: hidden;
+}
+
+.box1{
+    position: relative;
+    display: flex;
+    width: 65%;
+    border-bottom: 2px solid white;
+    flex-direction: column;
+    justify-content: center;
+    align-items:stretch;
+}
+
+.box1 .container1 .content1 .header1{
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.3px;
+    color: #F8EEE4;
+    width: 100%;
+}
+
+.box1 .container1 .ul{
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 159.5%;
+    letter-spacing: -0.3px;
+    color: #FFFFFF;
+}
+.box1 .container1 .text1{
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 159.5%;
+    letter-spacing: -0.3px;
+    color: #FFFFFF;
+}
+
+.box1 .container1 .ul{
+    position: relative;
+    left: 15px;
+}
+
+.box1 .container2 .content2{
+    margin-top: 2rem;
+}
+
+.box1 .container2 .header2{
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.3px;
+    color: #F8EEE4;
+    margin-bottom: 1rem;
+}
+
+.box1 .container2 .text2{
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.3px;
+    color: #F8EEE4;
+    margin-bottom: 2rem;
+}
+
+.box1 .container2 .book{
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    color: #FFFFFF;
+    transition: all 0.5s;
+}
+
+.box1 .container2 .book:hover{
+    background: white;
+    color: #073E0D;
+}
+
+
+.box2 .container3 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+}
+
+.box2 .container3 .content3{
+    display: flex;
+    flex-direction: row;
+}
+
+.box2 .container4 .header4 {
+    margin: 2rem 0 0.5rem 0;
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 115.5%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.3px;
+    color: #F8EEE4;
+}
+

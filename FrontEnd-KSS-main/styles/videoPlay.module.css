@@ -1,0 +1,39 @@
+/*Chrome*/
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .inputRange {
+    overflow: hidden;
+    width: 100%;
+    -webkit-appearance: none;
+    background-color: #b6a696;
+  }
+
+  .inputRange::-webkit-slider-runnable-track {
+    height: 8px;
+    -webkit-appearance: none;
+    color: #253c15;
+    margin-top: -1px;
+  }
+
+  .inputRange::-webkit-slider-thumb {
+    width: 8px;
+    -webkit-appearance: none;
+    height: 8px;
+    cursor: ew-resize;
+    background: #253c15;
+    box-shadow: -9999px 0 0 9999px #253c15;
+  }
+}
+/** FF*/
+.inputRange::-moz-range-progress {
+  background-color: #253c15;
+}
+.inputRange::-moz-range-track {
+  background-color: #b6a696;
+}
+/* IE*/
+.inputRange::-ms-fill-lower {
+  background-color: #253c15;
+}
+.inputRange::-ms-fill-upper {
+  background-color: #b6a696;
+}

@@ -1,0 +1,333 @@
+.container {
+    background-image: url("/images/14/BG_mobile.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodyNeed, .mantraTitle {
+    color: #FFFFFF;
+}
+
+.bodyNeed {
+    font-size: 20px;
+    padding-top: 53px;
+}
+
+.mantraTitle {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 32px;
+    font-family: "Tan Pearl";
+}
+
+.spText {
+    color: #073E0D;
+    font-weight: bold;
+}
+
+.customParagraph {
+    padding-top: 8px;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.tooltips {
+    font-size: 12px;
+    color: #523922;
+    margin-top: 14px !important;
+    margin-bottom: 0 !important;
+}
+
+.specialText {
+    color: #4D2A19;
+    padding-bottom: 6px;
+}
+
+.modalBtnContainer {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.tooltips:first-child {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.modalBtnContainer img {
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .modalBtnContainer {
+        padding-top: 25px;
+    }
+    .tooltips {
+        font-size: 16px;
+        line-height: 19px;
+        padding-top: 0;
+    }
+    .container {
+        background-image: url("/images/14/BG.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .bodyNeed {
+        font-size: 32px;
+        padding-top: 0;
+    }
+    .mantraTitle {
+        font-size: 50px;
+    }
+
+    .icontop {
+        width: 161px !important;
+        height: 161px !important;
+        top: -12px;
+        
+    }
+
+    .icontop img {
+        width: 80%;
+        height: 80%;
+    }
+
+    .customParagraph {
+        padding-top: 8px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .textContent {
+        padding: 50px 22px 20px 33px;
+    }
+    .xlDesktop {
+        background-image: url("/images/14/Rectangle_800.png");
+        height: 720px;
+        padding-top: 7.5rem;
+    }
+    
+    .lgDesktop {
+        background-image: url("/images/14/Rectangle_700.png");
+        height: 660px;
+        padding-top: 5.5rem;
+    }
+    
+    .mdDesktop {
+        background-image: url("/images/14/Rectangle_700.png");
+        height: 620px;
+        padding-top: 5.5rem;
+    }
+    
+    .smDesktop {
+        background-image: url("/images/14/Rectangle 40.png");
+        height: 548px;
+        padding-top: 5rem;
+    }
+}
+
+
+
+
+.container {
+    width: 100%;
+    height: max-content;
+    padding-bottom: 24px;
+    /* background-color: rgba(77, 42, 25, 0.4); */
+    background-blend-mode: overlay;
+}
+.box{
+    z-index: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.h1 h3{
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #523922;
+}
+
+.h1{
+    font-family: TAN - PEARL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 69px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    color: #523922;
+}
+
+.CenterBox {
+    position: relative;
+    width: 470px;
+    /* height: 700px; */
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+    /* padding-top: 3.5rem; */
+}
+
+.icontop {
+    position: absolute;
+    width: 116px;
+    height: 116px;
+    background-color: #B99173;
+    border: 24px solid #B99173;
+    border-radius: 116px;
+    margin-bottom: -120px;
+    z-index: 1;
+    top: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textContent {
+    padding: 0 38px 0 32px;
+    font-size: 16px;
+    color: #523922;
+}
+
+.xlMobile {
+    background-image: url("/images/14/Rectangle_700.png");
+    height: 600px;
+    padding-top: 5rem;
+}
+
+.lgMobile {
+    background-image: url("/images/14/Rectangle_700.png");
+    height: 540px;
+    padding-top: 5rem;
+}
+
+.mdMobile {
+    background-image: url("/images/14/Rectangle 40.png");
+    height: 500px;
+    padding-top: 5rem;
+}
+
+.smMobile {
+    background-image: url("/images/14/Rectangle 40.png");
+    height: 450px;
+    padding-top: 4.5rem;
+}
+
+@media only screen and (max-width: 768px)  {
+    .inputBox input {
+        width: 250px;
+    }
+    .CenterBox {
+        width: 330px;
+    }
+    .sign_btn1 {
+        position: absolute;
+        bottom: 0;
+        width: 260px !important;
+        height: 30px !important;
+        font-size: 14px !important;
+    }
+    .sign_btn2 {
+        margin-top: 2rem !important;
+        width: 260px !important;
+        height: 30px !important;
+        font-size: 14px !important;
+    }
+}
+
+.symbol{
+    position: relative;
+    top: -10%;
+}
+
+.note{
+    width: 85%;
+    margin-bottom: 1rem;
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    color: #4D2A19;
+}
+
+.sign_btn1{
+    position: absolute;
+    bottom: -20px;
+    cursor: pointer;
+    width: 350px;
+    height: 40px;
+    border: none;
+    border-radius: 40px;
+    background: #073E0D;
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    transition: all 0.5s;
+}
+
+.sign_btn2{
+    position: relative;
+    margin-top: 40px;
+    cursor: pointer;
+    width: 350px;
+    height: 40px;
+    border: none;
+    border-radius: 40px;
+    background: #A56C50;
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    transition: all 0.5s;
+}
+
+.sign-btn1:hover{
+    color: #073E0D;
+    background: white;
+}
+
+.sign-btn2:hover{
+    color: #A56C50;
+    background: white;
+}
+
+.learn{
+    text-decoration: underline;
+    cursor: pointer;
+}

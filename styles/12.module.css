@@ -1,0 +1,473 @@
+.container {
+    background-image: url("/images/11/BG.png");
+    background-size: 100% 100%;
+    height: 100%;
+  }
+  
+  .mainContainer {
+    position: relative;
+    height: calc(100vh - 20px);
+  }
+
+  .note{
+    width: 85%;
+    margin-bottom: 1.5rem;
+    font-family: Tenor Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4D2A19;
+    }
+    .inputBox {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 100%;
+      padding: 0 39px;
+      margin-bottom: 70px;
+    }
+
+    .formBox {
+      display: flex;
+      width: 100%;
+    }
+
+    .form {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+    }
+
+    .error {
+      font-size: 12px;
+      color: red;
+      padding-left: 10%;
+      margin-top: -1%;
+    }
+
+    .inputBox input {
+      height: 38px;
+      width: calc(100% - 40px);
+      border: none;
+      background-color: rgba(0, 0, 0, 0);
+      border-bottom: 1px solid white;
+      border-left: 1px solid white;
+      margin-bottom: 0.5rem;
+    
+      font-family: Tenor Sans;
+      font-size: 14px;
+      padding-left: 1rem;
+      color: #523922;
+    }
+
+    .Icon {
+      width: 40px;
+      border-bottom: 1px solid white;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 0.5rem;
+      position: relative;
+    }
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      background-image: url("/images/11/BGMobile.png");
+      background-size: cover;
+      height: 100%;
+    }
+    .content {
+      opacity: 1;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .note{
+        font-family: Tenor Sans;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        width: 77%;
+        margin-bottom: 1.25rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #4D2A19;
+    }
+    .TextHello {
+      position: relative;
+      font-family: Tenor Sans;
+      font-weight: 400;
+      width: 100%;
+      font-family: Tenor Sans;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 23px;
+      color: #523922;
+      margin-top: 0px;
+      padding: 12px 29px 40px;
+      text-align: right;
+      margin-top: 20px;
+    }
+
+    .inputBox input {
+      height: 38px;
+      width: calc(100% - 40px);
+      border: none;
+      background-color: rgba(0, 0, 0, 0);
+      border-bottom: 1px solid white;
+      border-left: 1px solid white;
+      margin-bottom: 4rem;
+    
+      font-family: Tenor Sans;
+      font-size: 14px;
+      padding-left: 1rem;
+      color: #523922;
+    }
+
+    .error {
+      font-size: 12px;
+      color: red;
+      padding-left: 16%;
+      margin-top: -22%;
+    }
+
+    .Icon {
+      width: 40px;
+      border-bottom: 1px solid white;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 4rem;
+      position: relative;
+    }
+    .customContent {
+      /* display: block;
+      padding-top: 40px; */
+    }
+  
+    .bottomBtn {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  }
+  
+  .copyright {
+    display: block;
+    font-size: 10px;
+    text-align: center;
+    color: white;
+    opacity: 0.5;
+    padding-top: 10px;
+  }
+  
+  .container {
+    width: 100%;
+    height: 100vh;
+    background-blend-mode: multiply;
+  }
+  
+  .box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .CenterBox {
+    position: relative;
+    width: 330px;
+    height: auto;
+    background-image: url("/images/11/login-2.png");
+    background-position: center;
+    background-size: 100% 95%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3.5rem;
+  }
+ 
+  
+  .icontop {
+    position: relative;
+    width: 116px;
+    height: 116px;
+    background-color: #b99173;
+    border: 24px solid #b99173;
+    border-radius: 116px;
+    margin-bottom: -112px;
+    margin-top: 12px;
+    z-index: 1;
+  }
+  
+  .iconTopCustom {
+    width: 126px;
+    height: 126px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  
+  .inputBoxChange {
+    height: 41px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .inputBoxChange .passwordBtn {
+    font-size: 14px;
+    color: #a56c50;
+  }
+  
+  
+  
+  .inputBox input::placeholder {
+    color: #523922;
+  }
+  
+  .inputPass input {
+    width: calc(100% - 80px);
+  }
+  
+  .checking {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .checking div {
+    margin: 0;
+  }
+  .checking label:last-child {
+    margin: 0;
+    padding: 14px 39px 0;
+  }
+  .label {
+    font-family: Tenor Sans !important;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #523922 !important;
+  }
+  
+  .signbtn {
+    height: 40px;
+    width: 260px;
+    cursor: pointer;
+  }
+  
+  .footer {
+    text-align: center;
+  }
+  
+  .socialSpan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding-bottom: 8px;
+    padding-top: 8px;
+  }
+  
+  .spaceRight {
+    margin-right: 10px;
+  }
+  
+  .spaceLeft {
+    margin-left: 10px;
+  }
+  
+  .signBtn {
+    position: absolute;
+    bottom: 8px;
+    z-index: 0;
+  }
+  
+  .signUpUsing {
+    padding-top: 22px;
+    color: white;
+    font-size: 12px;
+  }
+  
+  .a {
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  .rowText {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 39px;
+  }
+  
+  .rowText .text-left, .rowText .flow-root {
+    width: 50%;
+  }
+  
+  .rowText .flow-root .nearblack a {
+    font-size: 10px;
+  }
+  
+  .signUpBtn {
+    position: absolute;
+    bottom: -2px;
+    font-size: 14px;
+  }
+  
+  .signUpBtnGreen {
+    position: absolute;
+    bottom: -2px;
+    font-size: 14px;
+    background-color: #073E0D;
+    border-color: #073E0D;
+  }
+  
+  .signUpContainer {
+    /* padding-top: 2px; */
+  }
+  
+  .password {
+    width: calc(100% - 80px) !important;
+  }
+  
+  .commonText {
+    color: #523922;
+    font-size: 14px;
+  }
+  
+  .mantraTitle {
+    font-size: 32px;
+    font-family: "Tan Pearl";
+  }
+  
+  .CenterBoxLg {
+    position: relative;
+    width: 330px;
+    height: 460px;
+    background-image: url("/images/14/Rectangle 40.png");
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3.5rem;
+  }
+  
+  .lastSignupBtn {
+    position: absolute;
+    bottom: -15px;
+  }
+  
+  .customContainer {
+    background-image: url('/images/14/BG_mobile.png');
+    background-size: 100% 100%;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .CenterBox {
+      width: 470px;
+      height: 548px;
+    }
+    .copyright {
+      display: none;
+    }
+    .signBtn {
+      bottom: 10px;
+      font-size: 16px;
+      z-index: 0;
+    }
+    .signUpUsing {
+      padding-top: 30px;
+    }
+    .box {
+      height: 100vh;
+    }
+    .customBox {
+      height: 100% !important;
+    }
+    .container {
+      height: 100%;
+    }
+    .signUpBtn {
+      font-size: 16px;
+      bottom: -5px;
+    }
+    .Icon {
+      margin-bottom: 1rem;
+    }
+    .inputBox input {
+      margin-bottom: 1rem;
+    }
+    .signUpContainer {
+      padding-top: 17px;
+    }
+    .iconTopCustom {
+      width: 161px;
+      height: 161px;
+    }
+    .CenterBoxLg {
+      width: 470px;
+      height: 548px;
+    }
+    .customContainer {
+      background-image: url('/images/14/BG.png');
+      padding-bottom: 96px;
+    }
+    .commonText {
+      font-size: 16px;
+    }
+    .mantraTitle {
+      font-size: 32px;
+    }
+    .lastSignupBtn {
+      width: 350px;
+    }
+    .TextHello {
+      position: relative;
+      font-family: Tenor Sans;
+      font-weight: 400;
+      width: 100%;
+      font-family: Tenor Sans;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 23px;
+      color: #523922;
+      margin-top: 0px;
+      padding: 12px 29px 40px;
+      text-align: right;
+      margin-top: 20px;
+    }
+  }
+  

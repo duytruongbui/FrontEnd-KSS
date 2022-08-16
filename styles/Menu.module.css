@@ -1,0 +1,279 @@
+.container {
+  background-color: #b99173;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.lighttext {
+  color: #f8eee4;
+  display: none !important;
+}
+
+.animationHidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 0.33s, opacity 0.33s linear;
+}
+
+.animationShow {
+  visibility: visible;
+  opacity: 1;
+  transition: invisibility 0s linear 0.33s, opacity 0.33s linear;
+}
+
+.content {
+  font-family: Tenor Sans;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.3px;
+  margin-top: 20px;
+  color: #f8eee4;
+  min-width: 130px;
+}
+
+.roundedcustomfull {
+  border-radius: 10px !important;
+}
+
+.mbfooter {
+  font-family: Tenor Sans;
+  font-size: 1rem;
+  line-height: 154%;
+  /* or 15px */
+  letter-spacing: -0.3px;
+  color: #ffffff;
+}
+
+.space {
+  margin-top: 5vh;
+}
+
+.head1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.3px;
+
+  color: #f8eee4;
+  margin: 12px 0 12px 0;
+}
+
+.head2 {
+  margin: 12px 0 12px 0;
+  font-family: Tenor Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 10px;
+  display: flex;
+  align-items: center;
+
+  color: #f8eee4;
+}
+
+.moonimg {
+  mix-blend-mode: screen;
+  /* left: 0px !important; */
+  /* transform: rotate(-180deg); */
+}
+
+.backRec1 {
+  position: absolute;
+  width: 500px;
+  height: 1024px;
+  right: 0px;
+  top: 0px;
+  background: #a56c50;
+  box-shadow: 0px 4px 5px rgba(165, 108, 80, 1);
+  border-radius: 0px 0px 0px 200px;
+}
+.topTitle {
+  position: absolute;
+  top: 30px;
+  left: 23px;
+  color: #f8eee4;
+  font-size: 14px;
+}
+
+.inputBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Icon {
+  width: 40px;
+  border-bottom: 2px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.inputBox input {
+  height: 41px;
+  width: 300px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+  margin-bottom: 1rem;
+
+  font-family: Tenor Sans;
+  font-size: 14px;
+  padding-left: 1rem;
+  color: #523922;
+}
+
+.font {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.spacing {
+  margin-top: 40px;
+}
+
+.spacingtop {
+  margin-top: 65px;
+}
+
+.menubox {
+  margin-right: 70px;
+  margin-top: 40px;
+}
+
+.customImgMobile {
+  border-radius: 10px !important;
+  height: 255px;
+  background-size: cover;
+}
+
+.customImgContainer {
+  border-radius: 10px !important;
+  background-size: cover !important;
+}
+
+.customImg {
+  /* border-radius: 10px !important; */
+  /* width: 480px; */
+  height: 300px;
+}
+
+.customThumbNailContainer {
+  border-radius: 10px !important;
+  /* height: 450px; */
+  background-size: cover !important;
+}
+
+.customThumbNail {
+  /* border-radius: 10px !important; */
+  height: 450px;
+  /* background-size: contain !important; */
+}
+
+.customThumbTitle {
+  top: 76%;
+}
+
+/* screen breakpoint */
+@media only screen and (min-width: 768px) {
+  .topTitle {
+    display: none;
+  }
+  .lighttext {
+    display: block !important;
+  }
+  .container {
+    width: auto;
+    height: auto;
+  }
+  .mbfooter {
+    display: none;
+  }
+  .space {
+    margin-top: 3vh;
+  }
+  .head1 {
+    font-size: 50px;
+    line-height: 52px;
+  }
+  .head2 {
+    font-size: 32px;
+    line-height: 30px;
+  }
+  .title-28 {
+    font-size: 28px;
+  }
+  .content {
+    width: 100%;
+    font-size: 16px;
+    line-height: 18.72px;
+  }
+
+  .customThumbTitle {
+    width: 100%;
+    position: absolute;
+    top: 180px;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .font {
+    font-size: 15px;
+  }
+
+  .backRec1 {
+    width: 240px;
+    height: 641px;
+    border-radius: 0 0 0 200px;
+  }
+
+  .spacing {
+    margin-top: 30px;
+  }
+
+  .spacingtop {
+    margin-top: 61px;
+  }
+
+  .menubox {
+    margin-right: 20px;
+    margin-top: 38px;
+  }
+
+  a.title {
+    width: min-content;
+  }
+
+  .customFirstTitle {
+    margin-left: -64px;
+  }
+
+  .customSecondTitle {
+    margin-left: -55px;
+    margin-top: 10px;
+  }
+
+  .customThirdTitle {
+    margin-left: -64px;
+  }
+}
+
+@media only screen and (min-width: 1320px) {
+  .customImg {
+    /* width: 480px; */
+  }
+
+  .customThumbNail {
+    width: 700px;
+  }
+}

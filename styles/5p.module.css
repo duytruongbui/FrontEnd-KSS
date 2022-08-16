@@ -1,0 +1,84 @@
+.contain {
+    background-color: #A56C50;
+}
+
+.content {
+    background-image: url('../public/images/5/bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.head1 {
+    font-family: TAN - PEARL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 154%;
+    /* or 49px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.3px;
+
+    color: #F8EEE4;
+}
+
+.startbtn {
+    width: 330px;
+    background: #073E0D;
+    border-radius: 100px;
+    font-family: Tenor Sans;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px 0;
+    padding: 8px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.cardtitle {
+    font-family: TAN - PEARL;
+    font-size: 24px;
+    line-height: 154%;
+    text-align: center;
+    letter-spacing: -0.3px;
+    z-index: 1;
+    color: #F8EEE4;
+    position: relative;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+@media only screen and (max-width: 768px) {
+    .cardtitle {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .content {
+        background-image: url('../public/images/5/bg-mb.png');
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .head1 {
+        font-size: 20px;
+    }
+    .startbtn {
+        width: auto;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .p_lineHeight {
+        line-height: 18.72px;
+    }
+}
+
+.imgcover {
+    background: #C4C4C4;
+    border-radius: 10px 10px 10px 40px;
+}
